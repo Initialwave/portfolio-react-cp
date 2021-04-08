@@ -4,33 +4,30 @@
 
 import emoji from "react-easy-emoji";
 
+
 const illustration = {
   animated: true // set to false to use static SVG
 };
 
 const greeting = {
-  username: "David Rakosi",
-  title: "Hi all, I'm David",
+  username: "Daniel Ratzlaff",
+  title: "Hey everyone! I'm Daniel! Welcome to my Portfolio!",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of designing and building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
+    "I'm a front end Developer just sharpening my chops on code! I enjoy working with the MERN stack and doing CSS."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+    "",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/drakosi99",
-  // linkedin: "https://www.linkedin.com/in/",
-  gmail: "contact@davidrakosi.com",
-  // gitlab: "https://gitlab.com/",
-  // facebook: "https://www.facebook.com/",
-  medium: "https://medium.com/@davidrakosi",
-  stackoverflow: "https://stackoverflow.com/users/13263979/drakosi",
-  instagram: 'https://www.instagram.com/davidrakosi/',
-  twitter: 'https://twitter.com/davidrakosi_',
+  github: "https://github.com/Initialwave",
+  linkedin: "https://www.linkedin.com/in/daniel-ratzlaff-9b379879/",
+  gmail: "Asylumgames39@gmail.com",
+  gitlab: "https://gitlab.com/Initialwave",
+
   display: true // Set true to display this section, defaults to false
 };
 
@@ -38,14 +35,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "I write front end and back end code to make stunning visuals and comprehensive sites!",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integration of third party services such as Firebase/Vercel/MagicLink"
     )
   ],
 
@@ -61,10 +58,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
+    // {
+    //   skillName: "sass",
+    //   fontAwesomeClassname: "fab fa-sass"
+    // },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
@@ -77,18 +74,18 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
+    // {
+    //   skillName: "swift",
+    //   fontAwesomeClassname: "fab fa-swift"
+    // },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
+    // {
+    //   skillName: "sql-database",
+    //   fontAwesomeClassname: "fas fa-database"
+    // },
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
@@ -100,27 +97,25 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: false, // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Kenzie Academy",
+      logo: require("./assets/images/Kenzie.jpg"),
+      subHeader: "Front End Web Development Certification",
+      duration: "July 2020 - January 2021",
+      desc: "studied front end coding languages along with MERN and MEAN stack comparisons, worked collaboratively on projects",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "NodeJS",
+        "express",
+        "React JS",
+        "MongoDB",
+        "Git"
       ]
     },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc:
-        "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
   ]
 };
 
@@ -135,11 +130,11 @@ const techStack = {
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "60%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "90%"
+      progressPercentage: "50%"
     }
   ],
   displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -151,35 +146,35 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Clever Programmer",
-      companylogo: require("./assets/images/cpLogo.png"),
-      date: "September 2020 – Present",
+      role: "Product Owner/Software Engineer",
+      company: "Asulos Engineering",
+      companylogo: require("./assets/images/Asulos.png"),
+      date: "December 2020 – Present",
       desc:
-        "Changing lives of developers one line of code at a time.",
+        "Putting the Social back into social media",
       descBullets: [
-        "Custom building applications",
-        "Coaching",
-        "Streaming live on YouTube",
-        "Creating tutorials"
+        "social media platform",
+        "networking",
+        "Streaming live",
+        "Creating all forms of content"
       ]
     },
     {
-      role: "Product Owner (PSD2)",
-      company: "Erste Bank",
-      companylogo: require("./assets/images/ersteLogo.jpg"),
-      date: "July 2019 – September 2020",
+      role: "Software engineering student",
+      company: "Kenie Academy",
+      companylogo: require("./assets/images/Kenzie.jpg"),
+      date: "July 2020 – August 2021",
       desc:
-        "I lead software developers building the API for the bank in order to fulfil the PSD2 regulation requirements."
+        "Studying to become one of the best full stack software devs with people that are like my family."
     },
-    {
-      role: "Junior Information Security & Systems Representative",
-      company: "Vodafone",
-      companylogo: require("./assets/images/vodafoneLogo.png"),
-      date: "November 2018 – July 2019",
-      desc:
-        "I've conducted internal audit making sure the organization is compliant with the GDPR."
-    }
+    // {
+    //   role: "Junior Information Security & Systems Representative",
+    //   company: "Vodafone",
+    //   companylogo: require("./assets/images/vodafoneLogo.png"),
+    //   date: "November 2018 – July 2019",
+    //   desc:
+    //     "I've conducted internal audit making sure the organization is compliant with the GDPR."
+    // }
   ]
 };
 
@@ -188,9 +183,9 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "drakosi99", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "Initialwave", // Change to your github username to view your profile in Contact Section.
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -236,56 +231,56 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Front End Web Developer Certification",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "obtained from Kenzie Academy January 22nd, 2020",
+      image: require("./assets/images/Certificate.png"),
       footerLink: [
         {
           name: "Certification",
           url:
             ""
         },
-        {
-          name: "Award Letter",
-          url:
-            ""
-        },
-        {
-          name: "Google Code-in Blog",
-          url:
-            ""
-        }
-      ]
-    },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url:
-            ""
-        }
-      ]
-    },
+        // {
+        //   name: "Award Letter",
+        //   url:
+        //     ""
+        // },
+        // {
+        //   name: "Google Code-in Blog",
+        //   url:
+        //     ""
+        // }
+    //   ]
+    // },
+    // {
+    //   title: "Google Assistant Action",
+    //   subtitle:
+    //     "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+    //   image: require("./assets/images/googleAssistantLogo.webp"),
+    //   footerLink: [
+    //     {
+    //       name: "View Google Assistant Action",
+    //       url:
+    //         ""
+    //     }
+    //   ]
+    // },
 
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: ""
-        }
+    // {
+    //   title: "PWA Web App Developer",
+    //   subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+    //   image: require("./assets/images/pwaLogo.webp"),
+    //   footerLink: [
+    //     {name: "Certification", url: ""},
+    //     {
+    //       name: "Final Project",
+    //       url: ""
+    //     }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -310,7 +305,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -348,16 +343,16 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "(323) 768 0674",
-  email_address: "contact@davidrakosi.com"
+    "Discuss a project or just want to say hi? I'm always available.",
+  number: "(913) 475-4893",
+  email_address: "Asylumgames39@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "davidrakosi_", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 export {
