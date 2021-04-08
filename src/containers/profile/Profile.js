@@ -53,9 +53,10 @@ export default function Profile() {
   }
   useEffect(() => {
     if (openSource.showGithubProfile === "true") {
+  // eslint-disable-next-line react-hooks/exhaustive-deps
       getProfileData();
     }
-  }, []);
+  });
   if (
     openSource.display &&
     openSource.showGithubProfile === "true" &&

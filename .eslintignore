@@ -1,0 +1,5 @@
+./src/containers/projects/Projects.js
+./src/containers/podcast/Podcast.js
+./src/components/footer/Footer.js
+./src/containers/profile/Profile.js
+./src/components/header/Header.js
