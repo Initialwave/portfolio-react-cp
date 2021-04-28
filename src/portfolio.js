@@ -13,7 +13,7 @@ const greeting = {
   username: "Daniel Ratzlaff",
   title: "Hey everyone! I'm Daniel! Welcome to my Portfolio!",
   subTitle: emoji(
-    "I'm a front end Developer just sharpening my chops on code! I enjoy working with the MERN stack and doing CSS."
+    "I'm a front end Developer just sharpening my chops on code! I enjoy working with the MERN stack, troubleshooting, and debugging!"
   ),
   resumeLink:
     "",
@@ -151,17 +151,17 @@ const workExperiences = {
       companylogo: require("./assets/images/Asulos.png"),
       date: "December 2020 – Present",
       desc:
-        "Putting the Social back into social media",
+        "Putting the social back into social media",
       descBullets: [
         "social media platform",
         "networking",
-        "Streaming live",
-        "Creating all forms of content"
+        "streaming live",
+        "creating all forms of content"
       ]
     },
     {
       role: "Software engineering student",
-      company: "Kenie Academy",
+      company: "Kenzie Academy",
       companylogo: require("./assets/images/Kenzie.jpg"),
       date: "July 2020 – August 2021",
       desc:
@@ -218,7 +218,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
